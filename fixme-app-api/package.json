@@ -24,6 +24,7 @@
     "@nestjs/common": "^7.0.0",
     "@nestjs/core": "^7.0.0",
     "@nestjs/platform-express": "^7.0.8",
+    "class-validator": "^0.12.1",
     "express": "^4.17.1",
     "firebase-admin": "^8.10.0",
     "firebase-functions": "^3.6.0",
@@ -67,8 +68,8 @@
     "coverageDirectory": "../coverage",
     "testEnvironment": "node"
   },
-  "main":"dist/main.js",
-  "engines":{
-    "node":"8"
+  "main": "dist/main.js",
+  "engines": {
+    "node": "8"
   }
 }
