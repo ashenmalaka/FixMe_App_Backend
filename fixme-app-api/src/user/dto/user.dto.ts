@@ -13,6 +13,9 @@ export class UserDto{
     lastName:string;
 
     @IsNotEmpty()
+    phoneNumber:number;
+
+    @IsNotEmpty()
     email:string;
 
     @IsNotEmpty()

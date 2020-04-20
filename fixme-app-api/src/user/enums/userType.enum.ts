@@ -1,4 +1,5 @@
 export enum UserType{
-    NORMAL='normal',
-    ADMIN='admin'
+    DRIVER='driver',
+    MECHANIC='mechanic',
+    FUEL_STATION='fuelstation'
 }

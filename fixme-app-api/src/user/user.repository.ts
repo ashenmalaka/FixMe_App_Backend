@@ -11,6 +11,7 @@ export class UserRepository{
         db.collection('users').doc(userDto.uid).set({
             firstName: userDto.firstName,
             lastName: userDto.lastName,
+            phoneNumber: userDto.phoneNumber,
             email: userDto.email,
             userType: userDto.userType
         });
@@ -27,6 +28,7 @@ export class UserRepository{
                 uid,
                 firstName:data.data().firstName,
                 lastName:data.data().lastName,
+                phoneNumber:data.data().phoneNumber,
                 email:data.data().email,
                 userType:data.data().userType
             };
